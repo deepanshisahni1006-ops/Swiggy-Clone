@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.food-container {
+    max-width: 1200px;        /* Fixes the width so it doesn't stretch to the screen edges */
+    margin: 0 auto;        /*  Centers the entire container on your screen */
+    overflow: hidden;         /* MAGIC SPELL: Cuts off anything that goes outside this box! */
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.heading {
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-size: 22px;
+    padding-bottom: 60px;
+}
+.nav-btn {
+    /* margin-bottom: -150px; */
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e2e2e7;
+    color: #020202;
+    
+    /* THE FIXES */
+    display: inline-flex;    /* Forces content to align beautifully */
+    align-items: center;     /* Centers vertically */
+    justify-content: center;   /* Centers horizontally */
+    
+    font-family: sans-serif; /* Prevents default browser font overrides */
+    font-size: 18px;         /* Makes the arrow size proportional */
+    font-weight: 300;        /* Makes the arrow line thinner and cleaner */
+    line-height: 1;          /* Prevents invisible text heights from distorting the circle */
+    
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.food-item-section {
+    flex-wrap: nowrap;      /* FORCE: Prevents items from dropping to a new row */
+    overflow-x: auto;       /* ENABLE: Adds a horizontal scrollbar if items go off screen */
+    display: flex;
+    flex-direction: column;
+}
+.food-item {
+    display: flex;
+    gap: 25px;
+    margin-top: -20px;
+}
+.food-item-section::-webkit-scrollbar {
+    display: none; 
+}
+.food {
+    height: 180px;
+}
+.grocery-item {
+    display: flex;
+    flex-wrap: nowrap;    
+    overflow-x: auto;
+    margin-top: -30px;
+}
+.grocery-item::-webkit-scrollbar {
+    display: none; 
+}
+.grocery {
+    height: 180px;
+    padding-left: 20px;
+}
+.grocery-name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 6px;
+    padding-left: 35px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.banner {
+    height: 235px;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.location {
+    margin-left: 145px;
+}
+.location-container {
+    margin-left: 5px;
+    margin-top: -50px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+}
+.location-columns {
+    display: flex;
+}
+.location-button {
+    height: 50px;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: #3c4043;
+    border-color: #d7d7d7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 275px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow:auto;
+}
+.location-button-show-more {
+    color: #FF5200;
+    height: 50px;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+    border-color: #d7d7d7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 275px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow:auto;
+}

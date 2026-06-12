@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FF5200;
+    padding-top: 30px;
+    }
+.part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    padding-left: 110px;
+}
+.swiggy-logo {
+    height: 48px;
+    width: 160px;
+    margin-left: 32px;
+}
+.mid {
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 750;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-right: 10px;
+    gap: 30px;
+    align-items: center;
+    white-space: nowrap;
+}
+.right {
+    display: flex;
+}
+.get-the-app {
+    background-color: #FF5200;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+    margin-right: 14px;
+    white-space: nowrap;
+}
+.sign-in {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 14px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 42px 0 42px;
+    margin-left: 20px;
+    margin-right: 150px;
+    white-space: nowrap;
+}
+.part-2 {
+    display: flex;
+}
+.veggies {
+    height: 450px;
+}
+.sushi {
+    height: 450px;
+}
+.part-2-left {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.part-2-text {
+    padding-top: 70px;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.delivery-location {
+    color: #9E9E9E;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 550;
+    border-style: solid;
+    border-width: 0.001px;
+    border-radius: 14px;
+    padding-left: 45px;
+    padding-right: 60px;
+    padding-top: 4px;
+    margin-left: 145px;
+    margin-right: 10px;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.search-bar {
+    color: #9E9E9E;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 550;
+    border-style: solid;
+    border-width: 0.001px;
+    border-radius: 14px;
+    padding-left: 14px;
+    width: 380px;
+    padding-right: 100px;
+    padding-top: 4px;
+    margin-top: 20px;
+    margin-left: 4px;
+    white-space: nowrap;
+}
+.part-3 {
+    gap: 2px;
+    padding-top: 40px;
+    margin-left: -70px;
+    margin-right: -70px;
+    padding-bottom: 40px;
+    white-space: nowrap;
+}
+.card {
+    height: 375px;
+}

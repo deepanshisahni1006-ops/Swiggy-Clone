@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grey-text{
+    color: #2B2E35;
+    font-weight: 780;
+}
+.footer{
+    background-color: #EFF0F5;
+    /* padding: 20px; */
+
+}
+.footer-top{
+    display: flex;
+    margin-left: 220px;
+    margin-bottom: 40px;
+    /* padding-top: 30px; */
+    /* flex-direction: row; */
+    /* justify-content: space-between;
+    align-items: center; */
+}
+.footer-bottom{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    padding-left: 250px;
+}
+.logo-swiggy {
+    height: 48px;
+    margin-right: 120px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.bold-text {
+    color: black;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.text {
+    color: #3c4043;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.icons {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.social-icon {
+    height: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.cities-button {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 28px;
+    width: 120px;
+    border-style: solid;
+    border-color: #d1d1d1;
+    font-family: sans-serif;
+    color: #3c4043;
+    border-radius: 8px;
+    border-width: 1px;
+    margin-left: 25px; 
+    margin-top: 10px;
+}
+.download-button {
+    margin-left: 30px;
+    margin-right: -10px;
+    height: 65px;
+}
