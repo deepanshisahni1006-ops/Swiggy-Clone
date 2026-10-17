@@ -1,17 +1,16 @@
 # Swiggy Clone 🍔🛵
 
-A responsive front-end/full-stack web application replicating the core user interface and features of Swiggy—India's leading food ordering and delivery platform.
+A pure **HTML5 and CSS3** based responsive web interface replicating the landing page and food/grocery layout of Swiggy.
 
 ## 🚀 Overview
-This project is designed to mimic the modern, user-friendly UI of Swiggy. It features a restaurant listing page, food menu browsing, interactive cart management, and a seamless checkout layout optimized for both desktop and mobile screens.
+Yeh project modern frontend styling techniques ka use karke banaya gaya hai. Isme JavaScript ka use kiye bina, sirf HTML aur advanced CSS properties (jaise Flexbox aur horizontal scrolling containers) ki madad se Swiggy ka look and feel replicate kiya gaya hai.
 
-## 🛠️ Tech Stack & Libraries
-* **HTML5 & CSS3**: Core structuring and styling.
-* **Tailwind CSS / Flexbox**: For building a clean, modern, and fully responsive layout.
-* **JavaScript (ES6+)**: For interactive elements like cart counters, item additions, and dynamic UI rendering.
+## 🛠️ Tech Stack & Structure
+* **HTML5**: Semantic markup for the landing page structure, headers, and sections.
+* **CSS3**: Custom styling divided into modular stylesheets (`header.css`, `main.css`, `footer.css`).
+* **Flexbox & Scroll Layouts**: Used for flexible container alignments, element gaps, and smooth hidden-scrollbar horizontal carousels for food and grocery items.
 
-## ✨ Features
-* Responsive navigation bar with location selector and search bar.
-* Dynamic restaurant cards displaying ratings, delivery time, and cuisines.
-* Interactive food menu with category filters.
-* Cart drawer/page to manage selected food items and total price calculation.
+## ✨ Key Features
+* Custom-designed header section with Swiggy logo, navigation links ("Swiggy Corporate", "Partner with us"), and action buttons ("Get the App", "Sign in").
+* Flexbox-powered food and grocery item sections supporting smooth horizontal scrolling without visible scrollbars (`::-webkit-scrollbar { display: none; }`).
+* Responsive layout structure designed cleanly using separate CSS modular files.
